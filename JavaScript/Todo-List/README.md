@@ -41,7 +41,7 @@ Todo-List
 
 ### Tasks Added
 
-![Tasks Added](screenshots/tasks-added.png)
+![Tasks Added](screenshots/task-added.png)
 
 ### Completed Task
 
