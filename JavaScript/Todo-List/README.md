@@ -32,3 +32,17 @@ Todo-List
 - Local Storage
 - Dark Mode
 - Task Categories
+
+## Screenshots
+
+### Home Page
+
+![Home Page](screenshots/home.png)
+
+### Tasks Added
+
+![Tasks Added](screenshots/tasks-added.png)
+
+### Completed Task
+
+![Completed Task](screenshots/completed-task.png)
