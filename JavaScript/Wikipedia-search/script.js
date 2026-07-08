@@ -1,10 +1,13 @@
-
 let searchInputEl = document.getElementById("searchInput");
 let searchResultsEl = document.getElementById("searchResults");
 let spinnerEl = document.getElementById("spinner");
 
 function createAndAppendSearchResult(result) {
-    let { link, title, description } = result;
+    let {
+        link,
+        title,
+        description
+    } = result;
 
     let resultItemEl = document.createElement("div");
     resultItemEl.classList.add("result-item");
@@ -28,7 +31,6 @@ function createAndAppendSearchResult(result) {
 
     let linkBreakEl = document.createElement("br");
     resultItemEl.appendChild(linkBreakEl);
-
     let descriptionEl = document.createElement("p");
     descriptionEl.classList.add("link-description");
     descriptionEl.textContent = description;
@@ -46,25 +48,32 @@ function displayResults(searchResults) {
 }
 
 function searchWikipedia(event) {
+
     if (event.key === "Enter") {
 
+        let searchInput = searchInputEl.value.trim();
+
+        if (searchInput === "") {
+            return;
+        }
+
         spinnerEl.classList.remove("d-none");
-        searchResultsEl.textContent = "";
+        searchResultsEl.innerHTML = "";
 
-        let searchInput = searchInputEl.value;
-        let url = "https://ccbp.in" + searchInput;
-        let options = {
-            method: "GET"
-        };
+        let url =
+            "https://apis.ccbp.in/wiki-search?search=" +
+            encodeURIComponent(searchInput);
 
-        fetch(url, options)
-            .then(function (response) {
-                return response.json();
-            });
-
-            .then(function (jsonData) {
-                let { search_results } = jsonData;
-                displayResults(search_results);
+        fetch(url)
+            .then(response => response.json())
+            .then(data => {
+                displayResults(data.search_results);
+            })
+            .catch(error => {
+                spinnerEl.classList.add("d-none");
+                console.log(error);
             });
     }
 }
+
+searchInputEl.addEventListener("keydown", searchWikipedia);
