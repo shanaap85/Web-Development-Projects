@@ -34,9 +34,13 @@ Wikipedia-Search/
 
 ![Home Page](screenshots/home.png)
 
+### Adding search input
+
+![Home Page](screenshots/adding-search-input.png)
+
 ### Search Results
 
-![Search Results](screenshots/search-results.png)
+![Search Results](screenshots/results.png)
 
 ## 🚀 How to Run
 
