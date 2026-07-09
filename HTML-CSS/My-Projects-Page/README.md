@@ -34,9 +34,14 @@ My-Projects-Page/
 
 ![Home Page](screenshots/home.png)
 
-### Projects Section
+### Advance technology project 
 
-![Projects Section](screenshots/projects.png)
+![Projects Section](screenshots/adv.png)
+
+### Diwali project 
+
+![Projects Section](screenshots/diw.png)
+
 
 ## 🚀 How to Run
 
