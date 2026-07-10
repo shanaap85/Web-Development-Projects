@@ -35,10 +35,10 @@ Conference-Page/
 
 ### Conference Details
 
-![Conference Details](screenshots/vedio-section.png)
+![Conference Details](screenshots/video-section.png)
 
 
-![Conference Details](screenshots/vedio-loading.png)
+![Conference Details](screenshots/video-loading.png)
 
 ## 🚀 How to Run
 
