@@ -36,13 +36,12 @@ Bookstore-Page/
 
 ![Home Page](screenshots/home.png)
 
-### 📖 Featured Books
-
-![Featured Books](screenshots/featured-books.png)
-
 ### 📚 Book Details
 
-![Book Details](screenshots/book-details.png)
+![Featured Books](screenshots/book1.png)
+
+
+![Book Details](screenshots/book2.png)
 
 ## 🚀 How to Run
 
