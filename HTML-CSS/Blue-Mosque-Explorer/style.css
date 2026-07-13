@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.ov-background {
+    background-image: url("https://i0.wp.com/alliemtaylor.blog/wp-content/uploads/2018/06/untitled-1-of-1-6.jpg?resize=1440%2C1800&ssl=1");
+    height: 100vh;
+    background-size: cover;
+}
+
+.ov-headd {
+    font-family: 'roboto';
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    padding: 20px;
+    padding-bottom: 5px;
+}
+
+.card-contt {
+    background-color: white;
+    margin: 20px;
+}
+
+.card-headd {
+    color: black;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px;
+    padding-bottom: 5px;
+
+}
+
+.card-para {
+    font-family: 'Roboto';
+    font-size: 13px;
+    padding: 15px;
+    padding-top: 5px;
+}
