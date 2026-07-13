@@ -36,7 +36,9 @@ Travel-Explorer/
 
 ### 🎠 Image Carousel
 
-![Image Carousel](screenshots/carousel.png)
+![Image Carousel](screenshots/carousel1.png)
+
+![Image Carousel](screenshots/carousel2.png)
 
 ## 🚀 How to Run
 
