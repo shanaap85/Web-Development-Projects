@@ -34,11 +34,15 @@ Update-Password/
 
 ### 🔑 Password Update Form
 
-![Password Form](screenshots/form.png)
+![Password Form](screenshots/home.png)
 
 ### ⚠️ Validation Messages
 
-![Validation](screenshots/validation.png)
+![Validation](screenshots/img1.png)
+
+![Validation](screenshots/img2.png)
+
+![Validation](screenshots/img3.png)
 
 ## 🚀 How to Run
 
