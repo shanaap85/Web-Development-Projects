@@ -4,7 +4,7 @@ Projects built using JavaScript.
 
 ## Projects
 
+- Subscription Form Validation
 - Todo List
-- Password Generator
+- Update Password
 - Wikipedia Search
-- Emoji Game
