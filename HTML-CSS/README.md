@@ -4,6 +4,8 @@ This folder contains responsive websites built using HTML5 and CSS3.
 
 ## Projects
 
-- Food Munch
-- Tourism Website
-- Favorite Places
+- Blue Mosque Explorer
+- Bookstore Page
+- Conference Page
+- My Projects Page
+- Yoga Page
