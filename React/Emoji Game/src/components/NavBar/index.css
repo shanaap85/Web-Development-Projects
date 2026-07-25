@@ -1,0 +1,28 @@
+
+.NavBar {
+  background-color: #9796f0;
+  height: 10vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+.dispL {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.game {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: left;
+}
+.logo {
+  padding-left: 20px;
+  height: 60px;
+}
+.para {
+  color: #ffffff;
+}
