@@ -1,0 +1,40 @@
+
+.WinLose {
+  padding: 20px;
+  background-color: #9796f0;
+  border-width: 1px;
+  border-color: #ffffff;
+  border-radius: 10px;
+  width: 50vw;
+  height: 70vh;
+  border-style: solid;
+}
+.WLimg {
+  height: 250px;
+}
+.winB {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 70vh;
+}
+.WinH {
+  color: #ffffff;
+}
+.WinS {
+  color: #6a59ff;
+  font-size: 35px;
+  font-weight: bold;
+}
+.Win {
+  text-align: center;
+}
+.Buttoon {
+  background-color: #ffce27;
+  color: #3d3d3d;
+  border-radius: 10px;
+  border-width: 0px;
+  height: 40px;
+  width: 150px;
+}
