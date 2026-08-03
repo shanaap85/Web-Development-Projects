@@ -63,6 +63,12 @@ Emoji-Game/
 
 ![Winning Screen](screenshots/win.png)
 
+## 🎥 Demo Video
+
+Watch the complete gameplay demonstration here:
+
+[▶️ Emoji Game Demo](video/emoji-game-demo.mp4)
+
 ## 🚀 Getting Started
 
 ### Prerequisites
